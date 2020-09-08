@@ -1,7 +1,7 @@
 let a = 8;
 let b = 3;
 
-const luasPersegi = (num) => {
+const luasPersegi = num => {
     return num * num
 }
 
