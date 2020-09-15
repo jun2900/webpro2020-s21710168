@@ -20,5 +20,4 @@ function getAccountSummary() {
 
 addExpenses("Beli Makanan", 15000);
 addExpenses("Ongkos", 30000);
-console.log(account.expenses);
 getAccountSummary();
