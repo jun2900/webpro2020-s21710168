@@ -24,6 +24,7 @@ export const fetchDataIndonesia = async () => {
 export const fetchProvinces = async () => {
     try {
         const { data: { data: provinces } } = await axios.get(`${urlIndonesia}/provinsi`)
+        provinces.pop()
         return provinces.map(province => (
             {
                 name: province.provinsi,
