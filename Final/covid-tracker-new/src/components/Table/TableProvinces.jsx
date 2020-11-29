@@ -12,10 +12,16 @@ const TableProvinces = () => {
     fetchApi();
   }, [setFetchedProvinces]);
 
-  console.log(fetchedProvinces);
   return (
-    <div>
-      <Table>
+    <div
+      style={{
+        width: "60%",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+    >
+      <h2>Jumlah Kasus Per Provinsi</h2>
+      <Table bordered>
         <thead>
           <tr>
             <th>Provinsi</th>
